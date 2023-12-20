@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkbpm_crafters=self.webpackChunkbpm_crafters||[]).push([[1505],{4469:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-blog","id":"default"}')}}]);
