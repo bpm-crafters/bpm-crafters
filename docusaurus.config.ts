@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'BPM Crafters ',
-  tagline: 'Peaking BPM Excellence',
+  tagline: 'No Bullshit BPM',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
