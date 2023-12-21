@@ -62,6 +62,12 @@ const config: Config = {
         src: 'img/logo.png',
       },
       items: [
+        {
+          href: 'https://github.com/bpm-crafters',
+          position: 'right',
+          className: "header-github-link",
+          "aria-label": "GitHub repository",
+        },
       ],
     },
     footer: {
@@ -76,6 +82,18 @@ const config: Config = {
             },
           ],
         },
+        {
+          title: 'Legal',
+          items: [
+            {
+              label: 'Imprint',
+              href: 'https://miragon.io/impressum'
+            }, {
+              label: 'Privacy',
+              href: 'https://miragon.io/datenschutz'
+            },
+          ],
+        }
       ],
       copyright: `Copyright © ${new Date().getFullYear()}.`,
     },
