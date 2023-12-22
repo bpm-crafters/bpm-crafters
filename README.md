@@ -5,9 +5,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![C7][c7-shield]][c7-url]
-[![C8][c8-shield]][c8-url]
 <!-- END OF PROJECT SHIELDS -->
 
 <!-- PROJECT LOGO -->
