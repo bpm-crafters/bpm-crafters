@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 import Heading from "@theme/Heading";
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import Link from "@docusaurus/Link";
 
 type AuthorItem = {
     pathToImage: string
@@ -176,7 +177,7 @@ export default function HomepageFeatures() {
                              subtitleText={continuousImprovement.subtitleText}>
             </ManifestSection>
 
-            <section className={styles.authors}>
+            <div className={styles.authors} >
                 <h1>About the authors</h1>
                 <div className="container">
                     <div className="row">
@@ -185,7 +186,28 @@ export default function HomepageFeatures() {
                         ))}
                     </div>
                 </div>
-            </section>
+            </div>
+
+            <div className={styles.sponsors}>
+                <h1>Our Sponsors</h1>
+                <div className={styles.imageButtonRow}>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.holisticon.de" className="button">
+                        <button className={styles.imageButton}>
+                            <img src={useBaseUrl("/img/holisticon.png")} alt="Holisticon" role="img"/>
+                        </button>
+                    </a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.miragon.io" className="button">
+                        <button className={styles.imageButton}>
+                            <img src={useBaseUrl("/img/miragon.png")} alt="Miragon" role="img"/>
+                        </button>
+                    </a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://phactum.at" className="button">
+                        <button className={styles.imageButton}>
+                            <img src={useBaseUrl("/img/phactum.png")} alt="Phactum" role="img"/>
+                        </button>
+                    </a>
+                </div>
+            </div>
         </div>
     );
 }

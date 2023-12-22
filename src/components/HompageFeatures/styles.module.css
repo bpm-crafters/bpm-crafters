@@ -5,6 +5,8 @@
     align-items: center;
     padding: 2rem 0;
     width: 100%;
+    background-color: #2e8555;
+    color: white;
 }
 
 .customerVoices {
@@ -105,24 +107,6 @@ pre {
     align-items: center;
 }
 
-.xButton {
-    width: 10px;
-    height: 10px;
-    margin-left: 0.5rem;
-    border-radius: 50%;
-}
-
-.red {
-    background-color: red;
-}
-
-.orange {
-    background-color: orange;
-}
-
-.green {
-    background-color: green;
-}
 
 section {
     gap: 0.5rem;
@@ -144,9 +128,9 @@ h1 {
     text-align: center;
 }
 
-.contribution {
+.sponsors {
     margin-top: 5rem;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -217,10 +201,6 @@ h1 {
     box-shadow: rgba(0, 0, 0, 0.04) 0 3px 5px;
 }
 
-.button {
-    white-space: break-spaces !important;
-}
-
 .author {
     height: 200px;
     width: 200px;
@@ -232,4 +212,21 @@ h1 {
 
 .author:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.imageButtonRow {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.imageButton {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    overflow: hidden;
 }
