@@ -234,3 +234,9 @@ h1 {
     object-fit: cover;
     overflow: hidden;
 }
+
+.shield {
+    height: auto;
+    width: 100px;
+    padding: 0.5rem;
+}
