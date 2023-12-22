@@ -1,15 +1,10 @@
-.features {
+.authors {
     display: flex;
     flex-direction: column;
     gap: 4rem;
     align-items: center;
     padding: 2rem 0;
     width: 100%;
-}
-
-.featureSvg {
-    height: 200px;
-    width: 200px;
 }
 
 .customerVoices {
@@ -224,4 +219,17 @@ h1 {
 
 .button {
     white-space: break-spaces !important;
+}
+
+.author {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.author:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }

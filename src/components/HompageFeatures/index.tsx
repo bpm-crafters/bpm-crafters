@@ -2,10 +2,20 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 import Heading from "@theme/Heading";
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
-function Author({title, description}: AuthorItem) {
+type AuthorItem = {
+    pathToImage: string
+    title: string;
+    description: JSX.Element;
+};
+
+function Author({pathToImage, title, description}: AuthorItem) {
     return (
         <div className={clsx('col col--4')}>
+            <div className="text--center">
+                <img src={useBaseUrl(pathToImage)} className={styles.author} role="img"/>
+            </div>
             <div className="text--center padding-horiz--md">
                 <Heading as="h3">{title}</Heading>
                 <p>{description}</p>
@@ -14,28 +24,35 @@ function Author({title, description}: AuthorItem) {
     );
 }
 
-type AuthorItem = {
-    title: string;
-    description: JSX.Element;
-};
-
-
 const AuthorList: AuthorItem[] = [{
+    pathToImage: '/img/jan.png',
     title: 'Jan Galisnki',
     description: (
         <>
-
+            I am a senior IT consultant engaged in complex business applications and process automation for medium and
+            large customers. I love open source software and contribute regularly. My tools of trade are Camunda, Axon
+            Framework, and Kotlin. I am a Camunda champion of the first cohort and most recognized for my work with the
+            Spring Boot starter extension and testing tools.
         </>
     ),
 }, {
     title: 'Simon Zambrovski',
+    pathToImage: '/img/simon.png',
     description: (
         <>
-
+            I’m a BPM Craftsman, Event Sourcerer, DDD CQRS/ES Lover, Software Engineer, Coach, Writer and Senior
+            Consultant
+            at Holisticon AG, in Hamburg, Germany. My focus is on business process management and software architecture,
+            especially for large, distributed, event-driven and complex systems. I spend a lot of time with free and
+            open
+            source projects and regularly contribute to many of them. I am a fan of photography, running, martial arts
+            and
+            cycling.
         </>
     ),
 }, {
     title: 'Stephan Pelikan',
+    pathToImage: '/img/stephan.png',
     description: (
         <>
 
@@ -43,28 +60,33 @@ const AuthorList: AuthorItem[] = [{
     ),
 }, {
     title: 'Peter Queteschiner',
+    pathToImage: '/img/peter.png',
     description: (
         <>
 
         </>
     ),
+}, {
+    title: 'Dominik Horn',
+    pathToImage: '/img/dominik.png',
+    description: (
+        <>
+
+        </>
+    ),
+}, {
+    title: 'Thomas Heinrichs',
+    pathToImage: '/img/thomas.png',
+    description: (
+        <>
+            Thomas is a Consultant at Miragon, a company which helps organisations to become truly digital. Prior to
+            this Thomas worked as a Consultant and Developer Advocate in various areas around process automation and
+            cloud-native applications. Being passionate for open-source projects, process automation and cloud
+            native architectures, he spoke at various conferences like "All Things Open" or "Kafka Summit". When not
+            working on such topics he is occupied with doing outdoor sports like climbing and skiing.
+        </>
+    ),
 },
-    {
-        title: 'Dominik Horn',
-        description: (
-            <>
-
-            </>
-        ),
-    },
-    {
-        title: 'Thomas Heinrichs',
-        description: (
-            <>
-
-            </>
-        ),
-    },
 ];
 
 interface ManifestSectionProps {
@@ -154,7 +176,7 @@ export default function HomepageFeatures() {
                              subtitleText={continuousImprovement.subtitleText}>
             </ManifestSection>
 
-            <section className={styles.features}>
+            <section className={styles.authors}>
                 <h1>About the authors</h1>
                 <div className="container">
                     <div className="row">
