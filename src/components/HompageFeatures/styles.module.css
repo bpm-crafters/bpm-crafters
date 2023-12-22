@@ -9,6 +9,10 @@
     color: white;
 }
 
+row {
+    gap: 2rem;
+}
+
 .customerVoices {
     display: flex;
     align-items: center;
