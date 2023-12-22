@@ -98,7 +98,7 @@ const config: Config = {
                     ],
                 }
             ],
-            copyright: `Copyright © ${new Date().getFullYear()}.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Miragon`,
         },
         prism: {
             theme: prismThemes.github,
