@@ -3,7 +3,6 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 import Heading from "@theme/Heading";
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import Link from "@docusaurus/Link";
 
 type AuthorItem = {
     pathToImage: string
