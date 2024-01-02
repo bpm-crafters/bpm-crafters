@@ -64,7 +64,7 @@ const ManifestSection: React.FC<ManifestSectionProps> = ({
 };
 
 const businessITAlignment = {
-    title: "Fostering Business-IT Alignment Over Non-Real World Process Implementations",
+    title: "1. Fostering Business-IT Alignment Over Non-Real World Process Implementations",
     subtitleText: (
         <>
             Emphasizing the harmony between business needs and IT capabilities, rather than focusing on processes that
@@ -74,7 +74,7 @@ const businessITAlignment = {
 };
 
 const domainOverTech = {
-    title: "Domain Semantic Models Over Technical Integrations",
+    title: "2. Domain Semantic Models Over Technical Integrations",
     subtitleText: (
         <>
             Prioritizing the understanding and modeling of business domains rather than focusing solely on the technical
@@ -84,7 +84,7 @@ const domainOverTech = {
 };
 
 const openStandards = {
-    title: "Open Standards Over Proprietary Solutions",
+    title: "3. Open Standards Over Proprietary Solutions",
     subtitleText: (<>
         Advocating for the use of open, universally accepted standards which promote interoperability and long-term
         sustainability over closed, proprietary systems.
@@ -92,7 +92,7 @@ const openStandards = {
 };
 
 const developmentBestPractices = {
-    title: "Software Development Best Practices Over Tool-Centric Features",
+    title: "4. Software Development Best Practices Over Tool-Centric Features",
     subtitleText: (<>
         Valuing established software development methodologies and practices over the allure of trendy or niche features
         offered by specific tools.
@@ -100,7 +100,7 @@ const developmentBestPractices = {
 };
 
 const continuousImprovement = {
-    title: "Continuous Improvement Over Set-and-Forget Solutions",
+    title: "5. Continuous Improvement Over Set-and-Forget Solutions",
     subtitleText: (<>
         Emphasizing the need for ongoing evaluation and refinement of BPM systems, rather than assuming a
         once-implemented
