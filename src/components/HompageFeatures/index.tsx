@@ -111,8 +111,6 @@ const continuousImprovement = {
 export default function HomepageFeatures() {
     return (
         <div>
-            <img alt="Static Badge" src="https://img.shields.io/badge/version-0.0.1-blue" className={styles.shield}/>
-
             <ManifestSection title={businessITAlignment.title}
                              subtitleText={businessITAlignment.subtitleText}>
             </ManifestSection>

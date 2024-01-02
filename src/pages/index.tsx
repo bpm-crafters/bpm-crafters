@@ -16,6 +16,8 @@ function HomepageHeader() {
                     {siteConfig.title}
                 </Heading>
                 <p className="hero__subtitle">{siteConfig.tagline}</p>
+                <img alt="Static Badge" src="https://img.shields.io/badge/version-0.0.1-blue"
+                     className={styles.shield}/>
             </div>
         </header>
     );
