@@ -130,6 +130,10 @@ export default function HomepageFeatures() {
                              subtitleText={continuousImprovement.subtitleText}>
             </ManifestSection>
 
+            <p className={styles.footnote}>
+                *The enumeration of the principles is not a ranking. All principles are equally important.
+            </p>
+
             <div className={styles.authors}>
                 <h1>About the authors</h1>
                 <div className="container">
