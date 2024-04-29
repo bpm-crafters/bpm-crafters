@@ -24,7 +24,7 @@ function Author({pathToImage, title}: AuthorItem) {
 
 const AuthorList: AuthorItem[] = [{
     pathToImage: '/img/jan.png',
-    title: 'Jan Galisnki',
+    title: 'Jan Galinski',
 }, {
     title: 'Simon Zambrovski',
     pathToImage: '/img/simon.png',
