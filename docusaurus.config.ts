@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
     title: 'BPM Manifesto',
-    tagline: "Welcome to the BPM Manifest, a collaborative effort crafted by the BPM Crafters community. We are a group " +
+    tagline: "Welcome to the BPM Manifesto, a collaborative effort crafted by the BPM Crafters community. We are a group " +
         "of professionals and enthusiasts united by a common passion for excellence in business process management and automation. " +
         "Our manifesto embodies the principles, insights, and best practices that define the highest standards in process " +
         "automation projects.",
@@ -66,12 +66,33 @@ const config: Config = {
             },
             items: [
                 {
+                    type: "doc",
+                    position: "left",
+                    docId: 'faq',
+                    label: "FAQ"
+                },
+                {
+                    type: "doc",
+                    position: "left",
+                    docId: 'contributing',
+                    label: "Contribute"
+                },
+                {
                     href: 'https://github.com/bpm-crafters',
                     position: 'right',
                     className: "header-github-link",
                     "aria-label": "GitHub repository",
                 },
             ],
+        },
+        announcementBar: {
+            id: 'draft-alert',
+            content:
+                '<b> The Manifesto is still in a Draft Version.</b>',
+            backgroundColor: '#d11414',
+            textColor: '#fff',
+
+            isCloseable: false,
         },
         footer: {
             style: 'dark',

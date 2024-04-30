@@ -45,17 +45,19 @@ const AuthorList: AuthorItem[] = [{
 
 interface ManifestSectionProps {
     title: string;
+    subtitle: string;
     subtitleText: React.ReactNode;
 }
 
 const ManifestSection: React.FC<ManifestSectionProps> = ({
                                                              title,
+                                                             subtitle,
                                                              subtitleText
                                                          }) => {
     return (
         <section>
             <div className={styles.heading}>
-                <h1>{title}</h1>
+                <h2>{title} <span style={{fontWeight:"normal", fontSize:"smaller"}}>{subtitle}</span></h2>
                 <p>{subtitleText}</p>
             </div>
         </section>
@@ -63,27 +65,20 @@ const ManifestSection: React.FC<ManifestSectionProps> = ({
 };
 
 const businessITAlignment = {
-    title: "1. Fostering Business-IT Alignment Over Non-Real World Process Implementations",
-    subtitleText: (
-        <>
-            Emphasizing the harmony between business needs and IT capabilities, rather than focusing on processes that
-            don’t reflect real-world scenarios.
-        </>
-    )
-};
-
-const domainOverTech = {
-    title: "2. Domain Semantic Models Over Technical Integrations",
+    title: "Fostering Business-IT Alignment ",
+    subtitle: "Over Developer-driven Process Automation",
     subtitleText: (
         <>
             Prioritizing the understanding and modeling of business domains rather than focusing solely on the technical
-            aspects of integration.
+            aspects of integration. This emphasizes the harmony between business needs and IT capabilities, rather than
+            focusing on solutions that don’t reflect real-world processes.
         </>
     )
 };
 
 const openStandards = {
-    title: "3. Open Standards Over Proprietary Solutions",
+    title: "Open Standards",
+    subtitle: "Over Proprietary Solutions",
     subtitleText: (<>
         Advocating for the use of open, universally accepted standards which promote interoperability and long-term
         sustainability over closed, proprietary systems.
@@ -91,19 +86,20 @@ const openStandards = {
 };
 
 const developmentBestPractices = {
-    title: "4. Software Development Best Practices Over Tool-Centric Features",
+    title: "Process Automation Best Practices ",
+    subtitle: "Over Tool-Centric Features",
     subtitleText: (<>
-        Valuing established software development methodologies and practices over the allure of trendy or niche features
+        Valuing established methodologies and practices for modeling and development over trendy or niche features
         offered by specific tools.
     </>)
 };
 
 const continuousImprovement = {
-    title: "5. Continuous Improvement Over Set-and-Forget Solutions",
+    title: "Continuous Process-Improvement",
+    subtitle: "Over Scoped And Time-Boxed Targets",
     subtitleText: (<>
-        Emphasizing the need for ongoing evaluation and refinement of BPM systems, rather than assuming a
-        once-implemented
-        solution will remain perpetually effective.
+        Process orientation is an ongoing journey and not a destination.
+        For automation journeys, a product mindset is more suited than a project one.
     </>)
 };
 
@@ -111,22 +107,22 @@ export default function HomepageFeatures() {
     return (
         <div>
             <ManifestSection title={businessITAlignment.title}
+                             subtitle={businessITAlignment.subtitle}
                              subtitleText={businessITAlignment.subtitleText}>
             </ManifestSection>
 
-            <ManifestSection title={domainOverTech.title}
-                             subtitleText={domainOverTech.subtitleText}>
-            </ManifestSection>
-
             <ManifestSection title={openStandards.title}
+                             subtitle={openStandards.subtitle}
                              subtitleText={openStandards.subtitleText}>
             </ManifestSection>
 
             <ManifestSection title={developmentBestPractices.title}
+                             subtitle={developmentBestPractices.subtitle}
                              subtitleText={developmentBestPractices.subtitleText}>
             </ManifestSection>
 
             <ManifestSection title={continuousImprovement.title}
+                             subtitle={continuousImprovement.subtitle}
                              subtitleText={continuousImprovement.subtitleText}>
             </ManifestSection>
 
