@@ -126,12 +126,9 @@ export default function HomepageFeatures() {
                              subtitleText={continuousImprovement.subtitleText}>
             </ManifestSection>
 
-            <p className={styles.footnote}>
-                *The enumeration of the principles is not a ranking. All principles are equally important.
-            </p>
-
             <div className={styles.authors}>
                 <h1>About the authors</h1>
+                <p>We are a group of professionals and enthusiasts united by a common passion for excellence in business process management and automation. Our manifesto embodies the principles, insights, and best practices that define the highest standards in process automation projects.</p>
                 <div className="container">
                     <div className="row">
                         {AuthorList.map((props, idx) => (
@@ -144,21 +141,21 @@ export default function HomepageFeatures() {
             <div className={styles.sponsors}>
                 <h1>Our Sponsors</h1>
                 <div className={styles.imageButtonRow}>
+                    <div>
                     <a target="_blank" rel="noopener noreferrer" href="https://www.holisticon.de" className="button">
-                        <button className={styles.imageButton}>
                             <img src={useBaseUrl("/img/holisticon.png")} alt="Holisticon" role="img"/>
-                        </button>
                     </a>
+                    </div>
+                    <div>
                     <a target="_blank" rel="noopener noreferrer" href="https://www.miragon.io" className="button">
-                        <button className={styles.imageButton}>
                             <img src={useBaseUrl("/img/miragon.png")} alt="Miragon" role="img"/>
-                        </button>
                     </a>
+                    </div>
+                    <div>
                     <a target="_blank" rel="noopener noreferrer" href="https://phactum.at" className="button">
-                        <button className={styles.imageButton}>
                             <img src={useBaseUrl("/img/phactum.png")} alt="Phactum" role="img"/>
-                        </button>
                     </a>
+                    </div>
                 </div>
             </div>
         </div>
