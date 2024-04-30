@@ -17,7 +17,7 @@ If you have any questions, contributions or ideas, please don't hesitate to join
 ## Sign the Manifesto
 
 You think that BPM Manifesto is essential for BPM solutions and community and share our values? You can
-make it public by signing the Manifesto and your name will appear on the "Hall of Signers". Please open
+make it public by signing the Manifesto and your name will appear on the [Hall of Signatories](https://bpm-crafters.dev/docs/hall-of-signatories). Please open
 a discussion in [Request for Hall of Signatories](https://github.com/bpm-crafters/bpm-crafters/discussions/categories/request-for-hall-of-signatories)
 and provide your name, optionally your company's name and, if you like a short statement, which should 
 appear on the page.
