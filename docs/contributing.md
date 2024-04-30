@@ -11,7 +11,7 @@ There are several ways, how you can participate in this community.
 
 You think that BPM Manifesto is essential for BPM solutions and community and share our values? You can
 make it public by signing the Manifesto and your name will appear on the "Hall of Signers". Please send us an email at
-<a href="mailto:sign@bpm-crafters.dev">sign@bpm-crafters.dev</a> and provide your name 
+<a href="mailto:sign-manifesto@bpm-crafters.dev">sign-manifesto@bpm-crafters.dev</a> and provide your name 
 and optionally your company's name and if you like a short statement.
 
 
