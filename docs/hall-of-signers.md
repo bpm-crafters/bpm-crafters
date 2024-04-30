@@ -1,8 +1,8 @@
 ---
-id: hall-of-signers
-title: Hall of Signers
-sidebar_label: Hall of Signers
-description: "Hall of Signers"
+id: hall-of-signatories
+title: Hall of Signatories
+sidebar_label: Hall of Signatories
+description: "Hall of Signatories"
 ---
 
 - Jan Galinski 

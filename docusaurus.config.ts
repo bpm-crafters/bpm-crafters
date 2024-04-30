@@ -80,8 +80,8 @@ const config: Config = {
                 {
                     type: "doc",
                     position: "right",
-                    docId: 'hall-of-signers',
-                    label: "Hall of Signers"
+                    docId: 'hall-of-signatories',
+                    label: "Hall of Signatories"
                 },
                 {
                     href: 'https://github.com/bpm-crafters',

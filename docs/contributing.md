@@ -10,9 +10,10 @@ There are several ways, how you can participate in this community.
 ## Sign the Manifesto
 
 You think that BPM Manifesto is essential for BPM solutions and community and share our values? You can
-make it public by signing the Manifesto and your name will appear on the "Hall of Signers". Please send us an email at
-<a href="mailto:sign-manifesto@bpm-crafters.dev">sign-manifesto@bpm-crafters.dev</a> and provide your name 
-and optionally your company's name and if you like a short statement.
+make it public by signing the Manifesto and your name will appear on the "Hall of Signers". Please open
+a discussion in [Request for Hall of Signatories](https://github.com/bpm-crafters/bpm-crafters/discussions/categories/request-for-hall-of-signatories)
+and provide your name, optionally your company's name and, if you like a short statement, which should 
+appear on the page.
 
 
 ## Become an active contributor
