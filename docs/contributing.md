@@ -7,6 +7,13 @@ description: "Contribution Guidelines"
 
 There are several ways, how you can participate in this community. 
 
+## Interested?
+
+We would love to receive feedback and discuss different aspects of BPM with you. For this purpose,
+we opened a [Discussion](https://github.com/bpm-crafters/bpm-crafters/discussions) section for you.
+If you have any questions, contributions or ideas, please don't hesitate to join our discussion.
+
+
 ## Sign the Manifesto
 
 You think that BPM Manifesto is essential for BPM solutions and community and share our values? You can
