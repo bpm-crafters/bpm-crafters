@@ -78,6 +78,12 @@ const config: Config = {
                     label: "Contribute"
                 },
                 {
+                    type: "doc",
+                    position: "right",
+                    docId: 'hall-of-signers',
+                    label: "Hall of Signers"
+                },
+                {
                     href: 'https://github.com/bpm-crafters',
                     position: 'right',
                     className: "header-github-link",
