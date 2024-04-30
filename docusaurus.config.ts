@@ -66,6 +66,18 @@ const config: Config = {
             },
             items: [
                 {
+                    type: "doc",
+                    position: "left",
+                    docId: 'faq',
+                    label: "FAQ"
+                },
+                {
+                    type: "doc",
+                    position: "left",
+                    docId: 'contributing',
+                    label: "Contribute"
+                },
+                {
                     href: 'https://github.com/bpm-crafters',
                     position: 'right',
                     className: "header-github-link",
