@@ -4,10 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
     title: 'BPM Manifesto',
-    tagline: "Welcome to the BPM Manifesto, a collaborative effort crafted by the BPM Crafters community. We are a group " +
-        "of professionals and enthusiasts united by a common passion for excellence in business process management and automation. " +
-        "Our manifesto embodies the principles, insights, and best practices that define the highest standards in process " +
-        "automation projects.",
+    tagline: "Welcome to the BPM Manifesto, a collaborative effort by the BPM Crafters community.",
     favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
