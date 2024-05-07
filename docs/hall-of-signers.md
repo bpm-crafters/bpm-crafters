@@ -11,3 +11,4 @@ description: "Hall of Signatories"
 - Peter Queteschiner 
 - Dominik Horn 
 - Thomas Heinrichs
+- Patrick Schalk
