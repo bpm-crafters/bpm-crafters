@@ -13,7 +13,7 @@
     <a href="#">
         <img src="static/img/logo.png" alt="Logo" height="180">
     </a>
-    <h3><a href="https://bpm-crafters.github.io/website/">BPM-Crafters Website and Documentation </a></h3>
+    <h3><a href="https://bpm-crafters.dev">BPM-Crafters Website and Documentation </a></h3>
     <p>
         <a href="https://github.com/bpm-crafters/website/issues">Report Bug</a>
         ·
@@ -21,7 +21,7 @@
     </p>
 </div>
 
-This repository contains the BPM-Crafters website as well as various best-practices and the api-client-documentation which can be found under [https://bpm-crafters.github.io/website/](https://bpm-crafters.github.io/website/)
+This repository contains the BPM-Crafters website as well as various best-practices and the api-client-documentation which can be found under [https://bpm-crafters.dev](https://bpm-crafters.dev)
 
 ## Documentation Guidelines
 ### PRs for every change
