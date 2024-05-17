@@ -12,3 +12,4 @@ description: "Hall of Signatories"
 - Dominik Horn 
 - Thomas Heinrichs
 - Patrick Schalk
+- Luc Weinbrecht
