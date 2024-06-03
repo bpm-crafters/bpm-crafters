@@ -14,3 +14,4 @@ description: "Hall of Signatories"
 - Patrick Schalk
 - Luc Weinbrecht
 - Florian Runschke
+- Jean Robert Alves
