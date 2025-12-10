@@ -15,3 +15,4 @@ description: "Hall of Signatories"
 - Luc Weinbrecht
 - Florian Runschke
 - Jean Robert Alves
+- Marco Schäck
