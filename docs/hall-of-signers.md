@@ -17,3 +17,4 @@ description: "Hall of Signatories"
 - Jean Robert Alves
 - Marco Schäck
 - Tomas Walek
+- Jan von Neree
