@@ -16,3 +16,5 @@ description: "Hall of Signatories"
 - Florian Runschke
 - Jean Robert Alves
 - Marco Schäck
+- Tomas Walek
+- Jan von Neree
