@@ -18,3 +18,4 @@ description: "Hall of Signatories"
 - Marco Schäck
 - Tomas Walek
 - Jan von Neree
+- Stefan Zilske
