@@ -19,3 +19,4 @@ description: "Hall of Signatories"
 - Tomas Walek
 - Jan von Neree
 - Stefan Zilske
+- Jan Rohwer
