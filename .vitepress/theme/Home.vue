@@ -228,13 +228,13 @@ const sponsors = [
   text-transform: lowercase;
   font-size: 0.8em;
   font-weight: 400;
-  color: #777;
+  color: #666;
   padding-right: 0.35rem;
 }
 .thesis__text {
   font-family: var(--mono);
-  font-size: 0.95rem;
-  line-height: 1.65;
+  font-size: 1rem;
+  line-height: 1.7;
   color: #333;
   margin: 0;
   max-width: 62ch;
@@ -255,7 +255,7 @@ const sponsors = [
 .authors__title {
   font-family: var(--grotesk);
   font-weight: 800;
-  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-size: clamp(1.8rem, 4vw, 2.75rem);
   letter-spacing: -0.02em;
   margin: 0 0 1.25rem;
   border: 0;
@@ -264,8 +264,8 @@ const sponsors = [
 .authors__intro {
   font-family: var(--mono);
   max-width: 640px;
-  font-size: 0.95rem;
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.7;
   color: rgba(255, 255, 255, 0.85);
   margin: 0 0 3rem;
 }
@@ -307,7 +307,7 @@ const sponsors = [
 .sponsors__title {
   font-family: var(--grotesk);
   font-weight: 800;
-  font-size: clamp(1.6rem, 4vw, 2.5rem);
+  font-size: clamp(1.8rem, 4vw, 2.75rem);
   letter-spacing: -0.02em;
   margin: 0 0 2rem;
   border: 0;

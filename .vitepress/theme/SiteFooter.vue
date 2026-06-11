@@ -76,10 +76,13 @@ const year = new Date().getFullYear()
 }
 
 .site-footer__col li {
-  margin-bottom: 0.4rem;
+  margin-bottom: 0;
 }
 
 .site-footer__col a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
   color: #cfd2d6;
   text-decoration: none;
   font-size: 0.9rem;
