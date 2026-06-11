@@ -11,7 +11,7 @@
 <br />
 <div align="center">
     <a href="#">
-        <img src="static/img/logo.png" alt="Logo" height="180">
+        <img src="public/img/logo.png" alt="Logo" height="180">
     </a>
     <h3><a href="https://bpm-crafters.dev">BPM-Crafters Website and Documentation </a></h3>
     <p>
@@ -42,7 +42,9 @@ It outlines writing techniques and practices to ensure uniform styling across do
 `npm install`
 
 ### Local Development 
-`npm run start`
+`npm run dev` (alias: `npm run start`) — starts the VitePress dev server with hot reload.
+`npm run build` — builds the static site into `./build`.
+`npm run preview` — serves the production build locally.
 
 ### Troubleshooting Checklist
 Have you pulled latest from `main`?
@@ -50,21 +52,21 @@ Have you run npm install? When we update dependencies in the project, they don't
 You'll need to run npm install occasionally to acquire dependency updates locally.
 
 ### Creating new files 
-If you have created a new file for the documentation you always need to make sure that it contains a proper header: 
+Documentation pages live under `docs/` and are served at `/docs/<filename>`. A new page should contain a proper frontmatter header: 
 ```
 ---
-id: best-practices-overview
 title: Best Practices Overview
-sidebar_label: Overview
-description: "This section provides an overview of the different BPM Best Pracitces."
+description: "This section provides an overview of the different BPM Best Practices."
 ---
+
+# Best Practices Overview
 ```
-If the page should show up in the sidebar it needs to be added to the [sidebar.js](./sidebars.js). By default, this should always be the case. 
+To list the page in the sidebar, add it to the `themeConfig.sidebar` array in [.vitepress/config.ts](./.vitepress/config.ts).
 
 ## Configuration
-This documentation is built using [Docusaurus 3](https://docusaurus.io), a modern static website generator.
-The framework is well documented and is used by many (open source) projects.
-The documentation can be customized by setting parameters in docusaurus.config.js. Parameters are described here: https://v2.docusaurus.io/docs/docusaurus.config.js.
+This documentation is built using [VitePress](https://vitepress.dev), a modern static site generator powered by Vite and Vue.
+The site is configured in [.vitepress/config.ts](./.vitepress/config.ts) (navigation, sidebar, footer, social links). Config options are documented at https://vitepress.dev/reference/site-config.
+The landing page and shared theme live in [.vitepress/theme/](./.vitepress/theme/); static assets (images, `CNAME`) live in [public/](./public). The production build is emitted to `./build` and deployed to GitHub Pages by the `Release Docs` workflow.
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
