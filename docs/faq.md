@@ -1,11 +1,11 @@
 ---
-id: faq
 title: FAQ
-sidebar_label: Frequently Asked Questions
-description: "Frequently Asked Questions"
+description: Frequently Asked Questions
 ---
 
-### Who is the target audience? 
+# FAQ
+
+### Who is the target audience?
 
 BPM Developers, Consultants and Architects.
 

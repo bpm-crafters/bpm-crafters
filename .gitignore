@@ -1,12 +1,12 @@
 # Dependencies
 /node_modules
 
-# Production
+# Production build output
 /build
 
-# Generated files
-.docusaurus
-.cache-loader
+# VitePress
+.vitepress/cache
+.vitepress/dist
 
 # Misc
 .DS_Store
@@ -19,3 +19,4 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 /.idea/
+.gstack/

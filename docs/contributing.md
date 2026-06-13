@@ -1,11 +1,11 @@
 ---
-id: contributing
 title: How To Contribute
-sidebar_label: How To Contribute
-description: "Contribution Guidelines"
+description: Contribution Guidelines
 ---
 
-There are several ways, how you can participate in this community. 
+# How To Contribute
+
+There are several ways, how you can participate in this community.
 
 ## Interested?
 
@@ -19,7 +19,7 @@ If you have any questions, contributions or ideas, please don't hesitate to join
 You think that BPM Manifesto is essential for BPM solutions and community and share our values? You can
 make it public by signing the Manifesto and your name will appear on the [Hall of Signatories](https://bpm-crafters.dev/docs/hall-of-signatories). Please open
 a discussion in [Request for Hall of Signatories](https://github.com/bpm-crafters/bpm-crafters/discussions/categories/request-for-hall-of-signatories)
-and provide your name, optionally your company's name and, if you like a short statement, which should 
+and provide your name, optionally your company's name and, if you like a short statement, which should
 appear on the page.
 
 
@@ -32,6 +32,5 @@ creation of BPM crafters, we welcome you to become an active contributor. Please
 ## Stay informed
 
 We envision to provide regularly updates about progress of the Manifesto, new content of BPM crafters
-and will develop a solution for this. For now, just write us an email at 
+and will develop a solution for this. For now, just write us an email at
 <a href="mailto:stay-informed@bpm-crafters.dev">stay-informed@bpm-crafters.dev</a>.
-
