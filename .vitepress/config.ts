@@ -52,6 +52,7 @@ export default defineConfig({
     siteTitle: 'BPM Crafters',
 
     nav: [
+      { text: 'Principles', link: '/docs/principles/' },
       { text: 'FAQ', link: '/docs/faq' },
       { text: 'Contribute', link: '/docs/contributing' },
       { text: 'Hall of Signatories', link: '/docs/hall-of-signatories' }
@@ -59,6 +60,25 @@ export default defineConfig({
 
     sidebar: {
       '/docs/': [
+        {
+          text: 'Manifesto Principles',
+          items: [
+            { text: 'Overview', link: '/docs/principles/' },
+            {
+              text: 'Fostering Business-IT Alignment',
+              link: '/docs/principles/business-it-alignment'
+            },
+            { text: 'Open Standards', link: '/docs/principles/open-standards' },
+            {
+              text: 'Process Automation Best Practices',
+              link: '/docs/principles/best-practices'
+            },
+            {
+              text: 'Continuous Process Improvement',
+              link: '/docs/principles/continuous-improvement'
+            }
+          ]
+        },
         {
           text: 'BPM Manifesto',
           items: [
