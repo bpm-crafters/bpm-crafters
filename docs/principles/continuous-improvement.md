@@ -9,7 +9,7 @@ description: "Treat every automated process as a living product: measure it, ass
 
 *A process is a living product, not a project you finish and file away.*
 
-This principle asserts that automating a process is not a one-time deliverable. Business rules change, regulations shift, and the people who run the process learn what actually works. The BPM Crafters hold this because an automated process is a product with a long life ahead of it — funded and staffed to evolve — not a project that ends the day it ships.
+This principle asserts that automating a process is not a one-time deliverable. Business rules change, regulations shift, and the people who run the process learn what actually works. We hold this because an automated process is a product with a long life ahead of it, funded and staffed to evolve, not a project that ends the day it ships.
 
 ## Why it matters
 
@@ -22,7 +22,7 @@ Ownership is the other casualty. When budget and team dissolve at handover, a de
 ## In practice
 
 - **Assign a lasting process owner.** Name a person accountable for the process after go-live, empowered to prioritize changes and set its direction.
-- **Instrument from day one.** Track the numbers that reveal whether the process is improving — cycle time, throughput, and manual-override frequency — so you measure the process, not just monitor uptime.
+- **Instrument from day one.** Track the numbers that reveal whether the process is improving, such as cycle time, throughput, and manual-override frequency, so you measure the process, not just monitor uptime.
 - **Define KPIs before you build.** Agree on a few key performance indicators (the numbers that show whether the process serves its goal) and review them on a regular cadence.
 - **Close the feedback loop.** Route insights from operations, task workers, and monitoring back into the model, and treat DMN decision tables as living artifacts that business experts can tune.
 - **Fund the product, not the project.** Secure a standing budget and a small team for ongoing iteration instead of a single build grant that expires at launch.
@@ -30,9 +30,9 @@ Ownership is the other casualty. When budget and team dissolve at handover, a de
 
 ## What this doesn't mean
 
-Scope and deadlines still matter. Time-boxed targets give a team focus, force hard prioritization, and turn an open-ended ambition into something shippable — a first version of a claims-approval process has to go live before it can improve. The point is one of emphasis and sequencing: use scope to deliver a solid starting point, then keep investing, because the value of an automated process compounds over the improvements that follow.
+Scope and deadlines still matter. Time-boxed targets give a team focus, force hard prioritization, and turn an open-ended ambition into something shippable. A first version of a claims-approval process has to go live before it can improve. The point is one of emphasis and sequencing: use scope to deliver a solid starting point, then keep investing, because the value of an automated process compounds over the improvements that follow.
 
 ## Related principles
 
-- [Process Automation Best Practices](/docs/principles/best-practices) — instrumentation, CI/CD, and incremental releases make iteration safe.
-- [Fostering Business-IT Alignment](/docs/principles/business-it-alignment) — feedback from business and task workers, and DMN as living tables.
+- [Process Automation Best Practices](/docs/principles/best-practices): instrumentation, CI/CD, and incremental releases make iteration safe.
+- [Fostering Business-IT Alignment](/docs/principles/business-it-alignment): feedback from business and task workers, and DMN as living tables.

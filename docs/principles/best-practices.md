@@ -1,6 +1,6 @@
 ---
 title: Process Automation Best Practices
-description: Why the BPM Crafters value process automation best practices over tool-centric features, and how to model, test, and operate durable processes.
+description: Why we value process automation best practices over tool-centric features, and how to model, test, version, and operate durable processes.
 ---
 
 # Process Automation Best Practices
@@ -9,7 +9,7 @@ description: Why the BPM Crafters value process automation best practices over t
 
 *Durable process solutions rest on proven engineering practices, not on the newest item on a vendor's feature list.*
 
-This principle asserts that the way you model, build, test, and operate an automated process matters more than which tool-specific feature you reach for. The BPM Crafters hold this because the value of an automated process lives in its clarity, correctness, and maintainability, and those qualities come from sound engineering rather than from any single feature. When a feature shapes your architecture, you trade long-term health for short-term convenience.
+This principle asserts that the way you model, build, test, and operate an automated process matters more than which tool-specific feature you reach for. We hold this because the value of an automated process lives in its clarity, correctness, and maintainability, and those qualities come from sound engineering rather than from any single feature. When a feature shapes your architecture, you trade long-term health for short-term convenience.
 
 ## Why it matters
 
@@ -37,5 +37,5 @@ This principle does not reject tool features. A capable engine, a good modeler, 
 
 ## Related principles
 
-- [Open Standards](/docs/principles/open-standards) — avoiding lock-in and preferring versioned logic over vendor scripts keeps your models portable across engines.
-- [Continuous Process Improvement](/docs/principles/continuous-improvement) — observability, CI/CD, and small versioned releases are what make ongoing improvement safe.
+- [Open Standards](/docs/principles/open-standards): avoiding lock-in and preferring versioned logic over vendor scripts keeps your models portable across engines.
+- [Continuous Process Improvement](/docs/principles/continuous-improvement): observability, CI/CD, and small versioned releases are what make ongoing improvement safe.
