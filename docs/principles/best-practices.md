@@ -19,17 +19,17 @@ Teams that skip established practices hit the same failures again and again:
 
 - **Untestable processes.** Logic buried in the model can only be checked by running the whole engine, so regressions slip through.
 - **Manual deployments.** Models are clicked into production from a modeler, with no version history, review, or rollback.
-- **Duplicate side effects.** A retried service task charges a customer twice because the call was never made idempotent (safe to repeat without changing the result).
+- **Duplicate side effects.** A retried service task charges a customer twice because the call was never made [idempotent](https://developer.mozilla.org/en-US/docs/Glossary/Idempotent) (safe to repeat without changing the result).
 - **Blind operations.** When a claims-approval process stalls, no one can see where or why, because the process emits no metrics, logs, or traces.
 
 ## In practice
 
-- **Agree on modeling conventions.** Standardize naming, element usage, and error patterns in BPMN (Business Process Model and Notation) and DMN (Decision Model and Notation) so any team member can read a diagram.
+- **Agree on modeling conventions.** Standardize naming, element usage, and error patterns in [BPMN](https://www.omg.org/spec/BPMN/) (Business Process Model and Notation) and [DMN](https://www.omg.org/spec/DMN/) (Decision Model and Notation) so any team member can read a diagram.
 - **Separate orchestration from business logic.** Keep the process model focused on flow and delegate real work to versioned services or workers, so logic stays testable outside the engine.
-- **Put processes under version control and CI/CD.** Store models as files in Git and ship them through the same continuous integration and continuous delivery (CI/CD) pipelines as your code, with automated builds, tests, and releases.
+- **Put processes under version control and CI/CD.** Store models as files in [Git](https://git-scm.com/) and ship them through the same [continuous integration](https://martinfowler.com/articles/continuousIntegration.html) and continuous delivery (CI/CD) pipelines as your code, with automated builds, tests, and releases.
 - **Design for failure.** Model boundary error events, retries, and compensation explicitly, and make every service call idempotent so retries are safe.
 - **Automate process tests.** Use engine testing libraries, such as the process test support in Camunda, Operaton, or Flowable, to assert token flow, decision outcomes, and error paths on every commit.
-- **Make processes observable.** Emit metrics, structured logs, and traces so you can answer where a claims-approval process is stuck and why.
+- **Make processes observable.** Emit [metrics, structured logs, and traces](https://opentelemetry.io/) so you can answer where a claims-approval process is stuck and why.
 
 ## What this doesn't mean
 

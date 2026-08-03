@@ -8,7 +8,7 @@ description: The four principles of the BPM Manifesto, each explained in depth f
 The [BPM Manifesto](/) is built on four principles. Each follows the same
 pattern: it names something we value **more** over something we value **less**.
 
-As in the Agile Manifesto, the items on the right still have value. We simply
+As in the [Agile Manifesto](https://agilemanifesto.org/), the items on the right still have value. We simply
 value the items on the left more. The pages below explain what each principle
 means in day-to-day process automation work, why it matters, and how to put it
 into practice.
