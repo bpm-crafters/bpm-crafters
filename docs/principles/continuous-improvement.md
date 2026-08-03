@@ -9,7 +9,7 @@ description: "Treat every automated process as a living product: measure it, ass
 
 *A process is a [living product, not a project](https://martinfowler.com/articles/products-over-projects.html) you finish and file away.*
 
-This principle asserts that automating a process is not a one-time deliverable. Business rules change, regulations shift, and the people who run the process learn what actually works. We hold this because an automated process is a product with a long life ahead of it, funded and staffed to evolve, not a project that ends the day it ships.
+This principle asserts that automating a process is not a one-time deliverable. Business rules change, regulations shift, and the people who run the process learn what actually works. We hold this because an automated process is a product with a long life ahead of it, funded and staffed to evolve, not a project that ends the day it ships. The [BPM lifecycle](https://link.springer.com/book/10.1007/978-3-662-56509-4) captures this: process monitoring and controlling feeds straight back into identification and discovery, so improvement is a loop rather than a finish line.
 
 ## Why it matters
 

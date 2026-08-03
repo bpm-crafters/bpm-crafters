@@ -11,7 +11,7 @@ description: Keep automated processes anchored in a shared understanding of the 
 
 This principle asserts that process automation succeeds when business and IT build a shared understanding of the domain, not when developers translate requirements into code on their own. We hold this because a model is only as valuable as the real-world process it represents. When the people who run the process can read the model, the model stays honest.
 
-Alignment is not a one-time handover. It runs through the whole [BPM lifecycle](https://link.springer.com/book/10.1007/978-3-662-56509-4): a process moves from identification and discovery, through analysis and redesign, into implementation, monitoring, and controlling, and then round again. Business and IT meet at every stage, and the process model is the shared artifact that carries understanding from one stage to the next.
+Alignment is not a one-time handover. It runs through the whole BPM lifecycle: a process moves from identification and discovery, through analysis and redesign, into implementation, monitoring, and controlling, and then round again. Business and IT meet at every stage, and the process model is the shared artifact that carries understanding from one stage to the next.
 
 ![The BPM lifecycle, a loop of six phases: process identification, process discovery, process analysis, process redesign, process implementation, and process monitoring and controlling.](/img/bpm-lifecycle.png)
 
