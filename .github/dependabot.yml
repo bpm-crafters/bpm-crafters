@@ -1,15 +1,44 @@
 version: 2
 updates:
-  # Fetch and update latest `npm` packages
+  # npm — one grouped PR per month (patch + minor + major ride together)
   - package-ecosystem: npm
     directory: "/"
-    target-branch: "main"
+    schedule:
+      interval: monthly
     labels:
       - "Technical Debt"
-    schedule:
-      interval: weekly
-      time: "05:00"
     commit-message:
       prefix: fix
       prefix-development: chore
       include: scope
+    cooldown:
+      default-days: 7
+    groups:
+      npm-all:
+        applies-to: version-updates
+        patterns: ["*"]
+        update-types: ["patch", "minor", "major"]
+      npm-security:
+        applies-to: security-updates
+        patterns: ["*"]
+
+  # github-actions — one grouped PR per month (SHA pins + version comments)
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: monthly
+    labels:
+      - "Technical Debt"
+    commit-message:
+      prefix: chore
+      include: scope
+    cooldown:
+      default-days: 7
+    groups:
+      actions-all:
+        applies-to: version-updates
+        patterns: ["*"]
+        update-types: ["patch", "minor", "major"]
+      actions-security:
+        applies-to: security-updates
+        patterns: ["*"]
