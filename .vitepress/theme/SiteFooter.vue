@@ -1,7 +1,3 @@
-<script setup lang="ts">
-const year = new Date().getFullYear()
-</script>
-
 <template>
   <footer class="site-footer">
     <div class="site-footer__inner">
@@ -26,7 +22,6 @@ const year = new Date().getFullYear()
           </ul>
         </div>
       </div>
-      <div class="site-footer__copyright">Copyright © {{ year }} Miragon</div>
     </div>
   </footer>
 </template>
@@ -92,13 +87,5 @@ const year = new Date().getFullYear()
 .site-footer__col a:hover {
   color: #fff;
   text-decoration: underline;
-}
-
-.site-footer__copyright {
-  margin-top: 2.5rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  font-size: 0.85rem;
-  color: #9da3ab;
 }
 </style>
