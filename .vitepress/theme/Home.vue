@@ -8,22 +8,26 @@ const principles = [
   {
     value: 'Fostering Business-IT Alignment',
     over: 'Developer-driven Process Automation',
-    text: 'Prioritizing the understanding and modeling of business domains rather than focusing solely on the technical aspects of integration. This emphasizes the harmony between business needs and IT capabilities, rather than focusing on solutions that don’t reflect real-world processes.'
+    text: 'Prioritizing the understanding and modeling of business domains rather than focusing solely on the technical aspects of integration. This emphasizes the harmony between business needs and IT capabilities, rather than focusing on solutions that don’t reflect real-world processes.',
+    href: '/docs/principles/business-it-alignment'
   },
   {
     value: 'Open Standards',
     over: 'Proprietary Solutions',
-    text: 'Advocating for the use of open, universally accepted standards which promote interoperability and long-term sustainability over closed, proprietary systems.'
+    text: 'Advocating for the use of open, universally accepted standards which promote interoperability and long-term sustainability over closed, proprietary systems.',
+    href: '/docs/principles/open-standards'
   },
   {
     value: 'Process Automation Best Practices',
     over: 'Tool-Centric Features',
-    text: 'Valuing established methodologies and practices for modeling and development over trendy or niche features offered by specific tools.'
+    text: 'Valuing established methodologies and practices for modeling and development over trendy or niche features offered by specific tools.',
+    href: '/docs/principles/best-practices'
   },
   {
     value: 'Continuous Process-Improvement',
     over: 'Scoped And Time-Boxed Targets',
-    text: 'Process orientation is an ongoing journey and not a destination. For automation journeys, a product mindset is more suited than a project one.'
+    text: 'Process orientation is an ongoing journey and not a destination. For automation journeys, a product mindset is more suited than a project one.',
+    href: '/docs/principles/continuous-improvement'
   }
 ]
 
@@ -70,6 +74,9 @@ const sponsors = [
           <h2 class="thesis__statement">{{ p.value }}</h2>
           <p class="thesis__over"><span class="mono">over</span> {{ p.over }}</p>
           <p class="thesis__text">{{ p.text }}</p>
+          <a class="thesis__more" :href="p.href">
+            Read more <span aria-hidden="true">&rarr;</span>
+          </a>
         </div>
       </article>
     </section>
@@ -238,6 +245,29 @@ const sponsors = [
   color: #333;
   margin: 0;
   max-width: 62ch;
+}
+.thesis__more {
+  display: inline-block;
+  margin-top: 1.25rem;
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--blue);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s ease;
+}
+.thesis__more:hover {
+  border-bottom-color: var(--blue);
+}
+.thesis__more span {
+  transition: transform 0.2s ease;
+  display: inline-block;
+}
+.thesis__more:hover span {
+  transform: translateX(3px);
 }
 
 /* Authors */
