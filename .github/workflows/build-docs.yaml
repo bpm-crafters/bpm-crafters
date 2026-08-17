@@ -3,7 +3,7 @@ name: build docs
 on:
   push:
     branches:
-      - '**'
+      - main
   pull_request:
     types: [ opened, reopened, synchronize ]
     paths:
@@ -13,6 +13,10 @@ on:
       - 'index.md'
       - 'package.json'
       - 'package-lock.json'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != format('refs/heads/{0}', github.event.repository.default_branch) }}
 
 jobs:
   build:
