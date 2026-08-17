@@ -11,8 +11,8 @@
     "serve": "vitepress preview"
   },
   "devDependencies": {
-    "vitepress": "^1.6.3",
-    "vue": "^3.5.41"
+    "vitepress": "1.6.4",
+    "vue": "3.5.41"
   },
   "engines": {
     "node": ">=18.0"
